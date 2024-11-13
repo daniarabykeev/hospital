@@ -1,0 +1,9 @@
+#root {
+  width: 400px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+

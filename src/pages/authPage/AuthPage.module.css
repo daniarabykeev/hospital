@@ -1,0 +1,13 @@
+.authPageMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: -webkit-fill-available;
+    background: radial-gradient(ellipse at top left, #0a2342, #1a2a6c, #113B96,  #1a2a6c);
+}
+.authPageMain > svg {
+    height: calc(100vh - 60%);
+    margin-top: 100px;
+}

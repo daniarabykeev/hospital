@@ -1,0 +1,39 @@
+.counterConteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counterMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+}
+
+.counterBtn {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0.6em 1.2em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.counterSaveBtn {
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.counterValue {
+    font-size: 35px;
+    font-weight: 600;
+}

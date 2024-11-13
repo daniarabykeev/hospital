@@ -1,0 +1,51 @@
+.inputsGroupMain {
+    width: 99%;
+    height: 55%;
+    border-radius: 20px 20px 0 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.inputsGroupMain > a {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.inputsGroupMain > h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.inputsGroupMain > div > p {
+    margin-bottom: 5px;
+    color: #757575;
+    font-weight: 500;
+}
+.inputsGroupMain > div > input {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 24px;
+    padding-left: 15px;
+    outline: none;
+}
+.inputsGroupMain > div {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.inputsGroupMain > button {
+    width: 350px;
+    height: 40px;
+    background: #0C2448;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
