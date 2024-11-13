@@ -1,8 +1,15 @@
 import cls from './Counter.module.css';
 import Icon, {IconsName} from '../icon/Icon.tsx';
+import { Dispatch, SetStateAction } from 'react';
 
 
-const Counter = ({ value, setValue, saveValue }) => {
+interface CounterProps {
+    value: number;
+    setValue: Dispatch<SetStateAction<number>>;
+    saveValue: () => void;
+}
+
+const Counter = ({ value, setValue, saveValue }: CounterProps) => {
     const increment = () => {
         setValue(value + 1)
     };
