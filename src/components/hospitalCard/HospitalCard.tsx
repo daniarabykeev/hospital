@@ -3,6 +3,12 @@ import Counter from "../counter/Counter.tsx";
 import {useState} from "react";
 import Icon, {IconsName} from "../icon/Icon.tsx";
 
+
+interface HospitalCardProps {
+    title: string;
+    adress: string;
+}
+
 const HospitalCard = ({title, adress}) => {
     const [value, setValue] = useState(() => {
         const storedValue = localStorage.getItem(`value-${title}`);
