@@ -9,7 +9,7 @@ interface HospitalCardProps {
     address: string;
 }
 
-const HospitalCard = ({title, address}) => {
+const HospitalCard = ({ title, address }: HospitalCardProps) => {
     const [value, setValue] = useState(() => {
         const storedValue = localStorage.getItem(`value-${title}`);
         return storedValue ? parseInt(storedValue) : 0;
