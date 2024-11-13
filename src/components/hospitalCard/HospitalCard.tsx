@@ -6,10 +6,10 @@ import Icon, {IconsName} from "../icon/Icon.tsx";
 
 interface HospitalCardProps {
     title: string;
-    adress: string;
+    address: string;
 }
 
-const HospitalCard = ({title, adress}) => {
+const HospitalCard = ({title, address}) => {
     const [value, setValue] = useState(() => {
         const storedValue = localStorage.getItem(`value-${title}`);
         return storedValue ? parseInt(storedValue) : 0;
@@ -32,7 +32,7 @@ const HospitalCard = ({title, adress}) => {
         <div className={cls.cardMain}>
             <div className={cls.cardTop}>
                 <h2>{title}</h2>
-                <p>{adress}</p>
+                <p>{address}</p>
                 <div className={cls.cardValue} onClick={showCounter}>
                     {value}
                 </div>
