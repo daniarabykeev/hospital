@@ -1,10 +1,12 @@
 .homePageMain {
-    height: 100%;
+    height: 100vh;
     background-color: #F7F8F2;
 }
 
 .homePageMain > div {
-    padding: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
     width: 100%;
     height: fit-content;
 }
